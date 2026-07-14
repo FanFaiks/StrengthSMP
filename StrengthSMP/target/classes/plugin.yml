@@ -1,0 +1,35 @@
+name: StrengthSMP
+version: '$version'
+
+main: FanFaiks.strengthSMP.StrengthSMP
+api-version: '1.21.11'
+load: POSTWORLD
+
+authors: [ FanFaiks ]
+
+commands:
+  strength:
+    description: Проверить свою силу
+    usage: /strength
+  withdraw:
+    description: Вывести силу
+    usage: /withdraw <количество>
+  strengthsmp:
+    description: Команды администратора
+    usage: /strengthsmp <подкоманда>
+    permission: strengthsmp.admin
+  ability:
+    description: Активировать способность оружия
+    usage: /ability
+  cooldown:
+    description: Сбросить кулдаун оружия
+    usage: /cooldown [игрок]
+    permission: strengthsmp.admin
+  trust:
+    description: Доверять игроку
+    usage: /trust <add|remove|list> [игрок]
+
+permissions:
+  strengthsmp.admin:
+    description: Права администратора
+    default: op

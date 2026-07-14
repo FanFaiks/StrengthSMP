@@ -1,0 +1,46 @@
+max_strength: 5           # Максимальная сила
+def_strength: 0           # Начальная сила при входе
+min_strength: -3          # Минимальная сила
+
+minimum_strength_to_activate_ability: 5   # Мин. сила для ультимейта
+minimum_strength_to_have_passive: 0       # Мин. сила для пассивки
+
+show_duration_in_actionbar: true    # Показывать таймер в action bar
+stun_axe_duration: 1                # Длительность оглушения (сек)
+sword_ultimate_multiplier: 1.5      # Множитель урона ультимейта меча
+mace_cooldown: 30                   # Кулдаун булавы (сек, 0 = выкл)
+no_strength: true                   # Запретить зелье силы
+deal_less_damage: true              # Штраф к урону при отриц. силе
+bow_beam_damage: 4                  # Урон луча лука (в сердцах)
+bow_beam_range: 20                  # Дальность луча (блоки)
+bow_beam_width: 1.5                 # Ширина луча (блоки)
+
+# Кулдауны способностей (секунды)
+sword_cooldown: 60
+axe_cooldown: 60
+trident_cooldown: 60
+shield_cooldown: 60
+bow_cooldown: 60
+crossbow_cooldown: 60
+
+# Длительности способностей (секунды)
+sword_duration: 15
+axe_duration: 5
+trident_duration: 5
+shield_duration: 15
+crossbow_duration: 15
+bow_beams: 3              # Количество лучей
+
+# Требования для ультимейта (ударов/попаданий)
+sword_ultimate: 5
+axe_ultimate: 7
+trident_ultimate: 3
+crossbow_ultimate: 5
+bow_ultimate: 10
+
+# Требования для пассивки (ударов/попаданий)
+sword_passive: 3
+axe_passive: 5
+trident_passive: 2
+crossbow_passive: 3
+bow_passive: 2
